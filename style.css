@@ -22,6 +22,8 @@
 header {
   background: #F0E2D1;
   font-family: 'Raleway', sans-serif;
+  z-index: 1;
+  position: relative;
 }
 
 header::after {
@@ -32,7 +34,7 @@ header::after {
 
 nav {
   float: right;
-  padding: 3%;
+  padding: 1%;
 }
 
 
@@ -70,7 +72,6 @@ body{
     padding: 0;
     font-family: 'Raleway', sans-serif;
     color: #7A7C80;
-
 }
 
 .h3{
@@ -146,7 +147,7 @@ body{
 
 .achievements{
   background: #F08767;
-  height: 115vh;
+  height: 120vh;
 }
 
 .first2, .second2, .third2 {
@@ -159,7 +160,7 @@ body{
     text-align: center;
 }
 
-@media (max-width:1000px) {
+@media (max-width:1100px) {
   .h3{
     font-weight: 900;
     font-size: 5.0rem;
@@ -177,19 +178,104 @@ body{
     left: 10%;
     top: 0vh;
   }
-
-  .about{
+    .about{
   background: #F0E2D1;
-  height: 115vh;
+  height: 120vh;
 }
 
   .experience{
   background: #7A7C80;
-  height: 195vh;
+  height: 205vh;
 }
 
   .achievements{
   background: #F08767;
-  height: 160vh;
+  height: 170vh;
 }
+
+  .btt{
+    height: 8vh;
+    width: 3vh;
+}
+
+}
+
+@media (max-height:700px) {
+  .h3{
+    font-weight: 900;
+    font-size: 4.0rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #F0E2D1;
+    position: relative;
+    bottom: 30vh;
+    right: 10%;
+  }
+  .h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.0rem;
+    color: #F0E2D1;
+    position: absolute;
+    left: 10%;
+    top: 0vh;
+  }
+    .about{
+  background: #F0E2D1;
+  height: 280vh;
+}
+
+  .experience{
+  background: #7A7C80;
+  height: 495vh;
+}
+
+  .achievements{
+  background: #F08767;
+  height: 420vh;
+}
+
+  .btt{
+    height: 8vh;
+    width: 3vh;
+}
+
+}
+
+@media (max-height:300px) {
+  .h3{
+    font-weight: 900;
+    font-size: 2.0rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #F0E2D1;
+    position: relative;
+    bottom: 30vh;
+    right: 20%;
+  }
+  .h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    color: #F0E2D1;
+    position: absolute;
+    left: 10%;
+    top: -3vh;
+  }
+    .about{
+  background: #F0E2D1;
+  height: 350vh;
+}
+
+  .experience{
+  background: #7A7C80;
+  height: 555vh;
+}
+
+  .achievements{
+  background: #F08767;
+  height: 470vh;
+}
+
+  .btt{
+    height: 8vh;
+    width: 3vh;
+}
+
 }
